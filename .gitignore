@@ -1,0 +1,34 @@
+# Ignore Python bytecode files
+api/rossmann/__pycache__/
+*.py[cod]
+
+# Ignore environment configuration files
+env_rossmann/
+
+# Ignore model files if they can be regenerated
+#model/
+#webapp/model/
+
+# Ignore parameter files if they can be regenerated
+#parameter/
+#webapp/parameter/
+
+# Keep data files in the repo, but optionally ignore large ones
+# data/*.csv
+
+# Ignore image files (optional)
+#img/
+
+# Ignore VSCode specific folders (if you're using VSCode)
+.vscode/
+
+# Ignore log files
+*.log
+
+# Ignore any temporary files
+*.tmp
+*.temp
+*.swp
+
+# Ignore hidden system files (e.g., on macOS)
+.DS_Store
