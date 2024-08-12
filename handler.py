@@ -3,7 +3,7 @@ import os
 import pandas as pd 
 
 from flask import Flask, request, Response
-from rossmann.rossmann import rossmann
+from webapp.rossmann.rossmann import rossmann
 
 
 # Load the trained model from a pickle file
